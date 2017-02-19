@@ -7,14 +7,23 @@
     </head>
     <body>
       <div id="header">
+        <h1 class="nome">Pedro Lucas</h1>
+        <a href="contato.html">Contato</a>
+        <script>
+          //alert("Bom Dia!"); //comentado
+          console.log("console log");
+          console.log(document.querySelector("h1"));
+          var titulo = document.querySelector("h1");
+          console.log(titulo.textContent);
+          titulo.textContent = "Pedro Pereira";
 
+          var nome = document.querySelector(".nome");
+          nome.textContent = "Pedro P.";
+        </script>
 
-
-        <h1>Pedro Lucas</h1>
         <p>21 anos, Solteiro</p>
         <p>(99)9999-9999</p>
         <a href="mailto:pedrolucas@email.com.br">pedrolucas@email.com.br</a>
-
       </div>
 
         <div id="conteudo">
@@ -86,6 +95,8 @@
 
 
        </div>
+       <!-- carregado no fim da pagina-->
+       <script src="index.js" > </script>
 
 
     </body>

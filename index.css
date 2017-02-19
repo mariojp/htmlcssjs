@@ -1,0 +1,66 @@
+body{
+  font-family: sans-serif;
+}
+
+h2{
+    background:#5599DD;
+    color:#DDDDDD;
+}
+.exp{
+    text-indent:50px;
+}
+#email{
+    text-decoration:underline;
+    font-style:italic;
+}
+
+#header{
+    text-align:center;
+}
+
+
+#conteudo{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tb-hab{
+    border: 1px solid black;
+    width: 40%;
+    margin: auto;
+}
+
+#tb-hab th{
+    background-color: #2196F3;
+}
+
+#tb-hab tr:nth-child(odd){
+    background-color: #FFFFFF;
+}
+
+#tb-hab tr:nth-child(even){
+    background-color: #BBDEFB;
+}
+
+#tb-hab td{
+  text-align: center;
+}
+
+
+figure{
+    top: 0;
+    right: 0;
+    position:absolute;;
+    background-color:white;
+    width:400px;
+    text-align:center;
+    padding:15px;
+    font-family:'Comic Sans MS',cursive;
+    border:1px solid black;
+    box-shadow:5px 5px 3px rgba(0,0,0,0.7);
+    -moz-transform:rotate(5deg);
+    -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+    transform: rotate(5deg);
+}
